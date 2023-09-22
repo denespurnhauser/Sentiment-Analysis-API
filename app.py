@@ -26,7 +26,8 @@ def sentiment_analysis(text: str):
         "text": text,
         "sentiment": sentiment,
         "polarity": polarity,
-        "subjectivity": subjectivity
+        "subjectivity": subjectivity,
+        "test": "this is a test"
     }
 
 #if __name__ == '__main__':
